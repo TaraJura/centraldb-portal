@@ -1,0 +1,2 @@
+class Governing < ApplicationRecord
+end

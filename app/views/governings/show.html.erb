@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @governing %>
+
+<div>
+  <%= link_to "Edit this governing", edit_governing_path(@governing) %> |
+  <%= link_to "Back to governings", governings_path %>
+
+  <%= button_to "Destroy this governing", @governing, method: :delete %>
+</div>
